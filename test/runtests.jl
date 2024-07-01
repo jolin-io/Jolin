@@ -1,6 +1,6 @@
 using Jolin
 using Test
 
-@testset "Jolin.jl" begin
+@testset "Jolin" begin
     # Write your tests here.
 end

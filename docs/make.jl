@@ -6,9 +6,9 @@ DocMeta.setdocmeta!(Jolin, :DocTestSetup, :(using Jolin); recursive=true)
 makedocs(;
     modules=[Jolin],
     authors="Stephan Sahm <stephan.sahm@jolin.io> and contributors",
-    sitename="Jolin.jl",
+    sitename="Jolin",
     format=Documenter.HTML(;
-        canonical="https://jolin-io.github.io/Jolin.jl",
+        canonical="https://jolin-io.github.io/Jolin",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/jolin-io/Jolin.jl",
+    repo="github.com/jolin-io/Jolin",
     devbranch="main",
 )
