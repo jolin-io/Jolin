@@ -21,6 +21,7 @@ AWS = "fbe9abb3-538b-5e4e-ba9e-bc94f4f92ebc"
 AWSExt = "AWS"
 
 [compat]
+JSON3 = "1"
 julia = "1.7"
 
 [extras]
