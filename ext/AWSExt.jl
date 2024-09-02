@@ -2,7 +2,7 @@ module AWSExt
 import Jolin, AWS, JSON3
 using Dates
 
-function JolinPluto.authenticate_aws(args...)
+function Jolin.authenticate_aws(args...)
     mydateformat = Dates.dateformat"yyyymmdd\THHMMSS\Z"
     # we define a function in a macro, so that we can use @get_jwt macro (which needs the location)
     # as well as use `renew`` argument, which requires a function
