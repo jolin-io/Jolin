@@ -1,4 +1,4 @@
-export get_jwt, authorize_aws
+export jolin_token, authorize_aws
 
 import HTTP
 import JSON3
