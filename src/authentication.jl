@@ -64,8 +64,6 @@ end
 
 Assume role via web identity. How to define such a role can be found here
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-role.html#cli-configure-role-oidc
-
-CAUTION: Please note that the semicolon is really important! `@authorize_aws(role_arn, audience="myaudience")` won't work as of now.
 """
 function authenticate_aws end
 
